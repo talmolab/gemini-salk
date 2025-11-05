@@ -1,14 +1,23 @@
-# Gemini [![Build Status](https://github.com/anishathalye/gemini/actions/workflows/ci.yml/badge.svg)](https://github.com/anishathalye/gemini/actions/workflows/ci.yml)
+# Gemini - Salk Institute Theme
 
-Gemini is a modern LaTeX [beamerposter] theme.
+A customized [Gemini] LaTeX beamer poster theme for the [Salk Institute for Biological Studies](https://www.salk.edu/).
+
+This theme features a clean, professional design with the Salk Institute branding and color scheme.
+
+## Preview
 
 <p align="center">
-<a href="https://raw.githubusercontent.com/anishathalye/assets/master/gemini/poster-gemini.pdf">
-<img src="https://raw.githubusercontent.com/anishathalye/assets/master/gemini/poster-gemini-small.png">
-</a>
+<img src="poster_preview.png" width="800">
 </p>
 
-If you're looking for a beamer presentation theme, take a look at [Auriga].
+## What's Different from Original Gemini?
+
+- **Cleaner header design**: Removed diagonal blue accents for a more streamlined appearance
+- **Salk Institute branding**: Custom color scheme matching Salk's brand guidelines
+- **Optimized spacing**: Improved highlighted block spacing to prevent text clipping
+- **Salk logo integration**: Template configured for the Salk logo
+
+Based on the excellent [Gemini] theme by [Anish Athalye](https://github.com/anishathalye/gemini).
 
 ## Dependencies
 
@@ -23,7 +32,7 @@ If you're looking for a beamer presentation theme, take a look at [Auriga].
 
 1. In `poster.tex`, set up your paper size, column layout, and scale the content as necessary
 
-1. Make a copy of `beamercolorthemegemini.sty`, update the `\usecolortheme` line in `poster.tex`, and theme the poster to your liking (optional, but highly recommended)
+1. The Salk theme files (`beamerthemesalk.sty` and `beamercolorthemesalk.sty`) are already configured - just customize the content
 
 1. Run `make` to build your poster
 
@@ -82,6 +91,7 @@ Contributions to Gemini such as bug reports, new themes, and new poster componen
 
 Copyright (c) Anish Athalye. Released under the MIT License. See [LICENSE.md][license] for details.
 
+[Gemini]: https://github.com/anishathalye/gemini
 [beamerposter]: https://github.com/deselaers/latex-beamerposter
 [Auriga]: https://github.com/anishathalye/auriga
 [LuaTeX]: http://www.luatex.org/
